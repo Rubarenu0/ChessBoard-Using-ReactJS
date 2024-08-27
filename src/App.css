@@ -1,0 +1,31 @@
+body{
+  background-color: #A0937D;
+}
+table,tr,td{
+  border:3px solid black;
+  border-collapse:collapse;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+tr,td{
+  width:100px;
+  height: 80px;
+}
+.b-pawn,.w-pawn{
+  font-size: 40px;
+}
+.black{
+  width: 100px;
+  height: 80px;
+  background-color: #CCD5AE;
+  font-size: 50px;
+}
+.white{
+  width: 100px;
+  height: 80px;
+  background-color:#86AB89;
+  font-size: 50px;
+}
+.row1,.row2,.row7,.row8{
+  cursor: pointer;
+}
